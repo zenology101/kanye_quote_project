@@ -1,0 +1,50 @@
+body{
+    background: rgb(0, 3, 3);
+    text-align: center;
+}
+
+.jumbotron{
+    background-color:rgb(165, 231, 198);  
+    text-shadow: 1px 1px;
+    font-family: "Lucida Handwriting", cursive;
+    border-radius: 30px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(165, 231, 198);
+    /* text-shadow: 1px 1px; */
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Papyrus", fantasy;
+  }
+
+  #randomPicture{
+    position: center;
+    width: 60%;
+    opacity: 0.5;
+    /* radius added for rounder sides  */
+    border-radius: 30px;
+}
+/* .jumbotron{
+    background-color:rgba(125, 41, 151, 0.747);  
+} */
+
+/* add shodows to the element  https://www.w3schools.com/css/css3_shadows.asp*/
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (min-width: 481px) {
+   
+}
+
+
